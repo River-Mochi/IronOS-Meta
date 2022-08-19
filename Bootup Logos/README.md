@@ -9,7 +9,7 @@ The data is stored into the second last page of flash. This gives 1024 bytes of 
 
 The first byte is marked purely to indicate that the page is programmed and which revision of the boot-logo-logic it is.
 
-The next byte indicates the frame timing in milliseconds, or `0` to indicate: Only show the first frame for the whole bootloader duration (still&nbsp;image&nbsp;mode).
+The next byte indicates the frame timing in milliseconds, or `0` (to indicate only show the first frame for the whole bootloader duration (still&nbsp;image&nbsp;mode)).
 
 After the OLED buffer is cleared to black, every frame is encoded as either:
 
